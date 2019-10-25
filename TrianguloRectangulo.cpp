@@ -66,5 +66,5 @@ int TrianguloRectangulo::getTipo()
 void TrianguloRectangulo::imprimirFigura()
 {
 	cout << "Triangulo Rectangulo: { Base: " << getBase() << ", Altura: " << getAltura()
-		<< ", Area: " << getArea() << ", Perimetro: " << getPerimetro() << " }\n";
+		<< ", Area: " << getArea() << ", Perimetro: " << getPerimetro() << ", Hipotenusa: "<<getHipotenusa()<< " }\n";
 }
